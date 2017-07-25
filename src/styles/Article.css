@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'ACaslonPro-Regular';
+  src: url("./fonts/ACaslonPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Springville-Regular3';
+  src: url("./fonts/Springville-Regular3.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+.article {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 49px; }
+
+.article:hover {
+  cursor: pointer; }
+
+.article.largeCol1 {
+  max-width: 348px;
+  width: 32%;
+  margin-right: calc(100% - 1103px); }
+
+.article.largeCol2 {
+  width: 32%;
+  max-width: 348px;
+  margin-right: calc(100% - 1103px); }
+
+.article.largeCol3 {
+  width: 32%;
+  max-width: 348px; }
+
+.underline {
+  text-decoration: underline; }
+
+.article-date {
+  font-family: 'Arial';
+  color: #767676;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: 45px;
+  margin-bottom: 19px; }
+
+.article-title {
+  font-family: "Springville-Regular3";
+  font-size: 48px;
+  padding-right: 5px;
+  margin-bottom: 30px; }
+
+.article-title:hover {
+  text-decoration: underline; }
+
+.article-presented {
+  font-family: "ACaslonPro-Regular";
+  font-size: 14px;
+  margin-bottom: 45px; }
+
+@media (max-width: 1110px) {
+  .article.largeCol1 {
+    margin-left: 20px;
+    max-width: 33%;
+    overflow: hidden;
+    margin-right: 2px; }
+  .article.largeCol2 {
+    max-width: 33%;
+    overflow: hidden;
+    margin-right: 2px; }
+  .article.largeCol3 {
+    max-width: 33%;
+    overflow: hidden; }
+  .article-title {
+    font-size: 40px; } }
+
+@media (max-width: 822px) {
+  .article.largeCol1 {
+    margin-left: 0; }
+  .article.smallCol1 {
+    width: 47%;
+    max-width: 348px;
+    margin-left: 2%;
+    margin-right: 2%; }
+  .article.smallCol2 {
+    width: 47%;
+    max-width: 348px;
+    margin-right: 2%; }
+  .article-image {
+    width: 100%; }
+  .article-title {
+    font-size: 24px; } }

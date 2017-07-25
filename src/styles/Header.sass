@@ -1,0 +1,72 @@
+.header-cont
+  width: 100%
+  display: block
+  height: 120px
+  margin: 0 auto
+  background-color: white
+  z-index: 1000
+  position: fixed
+
+header
+  height: 120px
+  width: 100%
+  max-width: 1162px
+  display: flex
+  display: -ms-flexbox
+  -ms-flex-pack: justify
+  justify-content: space-between
+  background-color: white
+  z-index: 1000
+  margin: 0 auto
+
+.logo
+  margin-top: 50px
+  margin-left: 5px
+  height: 32px
+
+.header-right
+  margin-right: 5px
+  display: flex
+  display: -ms-flexbox
+  justify-content: flex-end
+  -ms-flex-pack: end
+  font-size: 12px
+  margin-top: 55px
+
+.phone
+  display: inline-block
+  padding-right: 19px
+
+.login
+  display: inline-block
+  padding-right: 19px
+
+.hamburger
+  flex-direction: column
+  -ms-flex-direction: column
+
+.hamburger div
+  width: 20px
+  padding-top: 5px
+  border-top: 1px solid black
+
+@media (max-width: 1182px)
+  .logo
+    margin-left: 25px
+  .header-right
+    margin-right: 25px
+
+@media (max-width: 774px)
+  .header-cont
+    height: 50px
+  header
+    height: 50px
+  .logo
+    height: 28px
+    margin-top: 10px
+  .phone
+    display: none
+  .login
+    display: none
+  .header-right
+    margin-top: 15px
